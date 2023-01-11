@@ -60,8 +60,8 @@ console.log(toHoursAndMinutes(1441));
    * Вивести в консоль суму, різницю, добуток, поділ та залишок від поділу їх один на одного.
    * */
 
-const result = prompt('Введите число', '')
-const result2 = prompt('Введите число', '')
+const result = Number (prompt('Введите число', ''))
+const result2 = Number (prompt('Введите число', ''))
 console.log(Number(result) + Number(result2))
 console.log(Number(result) - Number(result2))
 console.log(Number(result) * Number(result2))
